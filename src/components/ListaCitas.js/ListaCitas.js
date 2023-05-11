@@ -1,10 +1,18 @@
 import React from 'react';
+import Card from '../Cards/Card.js';
 import './ListaCitas.css'
 
 function ListaCitas(props) {
   return (
     <>
     <h2>{props.title}</h2>
+    <Card
+      pet={"Nina"}
+      owner={"Martin"}
+      date={"2021-08-05"}
+      time={"08:20"}
+      symptoms={"Le duele la pierna"}
+    />
     <div class="cita">
       <p>Mascota: <span>Nina</span></p>
       <p>Dueño: <span>Martin</span></p>
